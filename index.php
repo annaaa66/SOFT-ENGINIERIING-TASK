@@ -11,12 +11,8 @@
 </body>
 </html>
 
-
-<!-- SQL за създаване на базата и таблицата -->
--- Създай базата данни:
 CREATE DATABASE autokashta;
 
--- Използвай базата:
 USE autokashta;
 
 -- Създай таблица:
@@ -28,7 +24,6 @@ CREATE TABLE cars (
     description TEXT
 );
 
--- Примерни автомобили:
 INSERT INTO cars (make, model, price, description) VALUES
 ('Toyota', 'Corolla', 15000.00, 'Надежден и икономичен автомобил'),
 ('BMW', '320d', 22000.00, 'Луксозен дизелов седан'),
